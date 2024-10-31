@@ -1,0 +1,86 @@
+#pinterest_widget {
+	position: relative;
+}
+#pinterest_widget_outer {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #cb2027;
+	background-color: #fff;
+	position: fixed;
+}
+#pinterest_widget_outer2 {
+	overflow: hidden;
+	text-align: left;
+}
+#pinterest_widget_outer img {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#pinterest_widget_outer iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.pinterst_box_modal > h2.top-style {
+	background: #cb2027;
+	border-radius: 5px;
+	color: #fff;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px !important;
+	padding: 15px 0!important;
+	text-align: center;
+	font-weight: normal;
+}
+.pinterst_box_modal .submit {
+	text-align: center;
+	width: 520px;
+}
+.pinterst_box_modal .submit .button-info{
+	background: #cb2027 none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.pinterst_box_modal th {
+	color: #cb2027;
+	font-size: 16px;
+}
+.pinterst_box_modal h2 {
+	color: #cb2027;
+	font-size: 26px;
+}
+.pinterst_box_modal .form-table input {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #cb2027;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.pinterst_box_modal .form-table textarea {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #005b7f;
+	height: 60px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+	margin: 0;
+}
+.pinterst_box_modal select {
+	border: 1px solid #cb2027;
+	border-radius: 3px;
+} 
